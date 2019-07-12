@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import pokemons from '../data/pokemon.json'
+import pokemons from '../data/pokemons.json'
 
 const Home = () => {
   return (
     <div>
       <h1>List of Pokemon</h1>
       <ul>
-        {pokemons.map(pokemon => {
+        {pokemons.map((pokemon, index) => {
           return (
-            <li>
+            <li key={index}>
               <Link to={`/pokemon/${pokemon.id}`}>{pokemon.name}</Link>
             </li>
           )
