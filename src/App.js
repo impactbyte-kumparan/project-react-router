@@ -17,7 +17,7 @@ const App = () => {
         <Header />
 
         <Route path="/" exact component={Home} />
-        <Route path="/pokemon" component={Home} />
+        <Route path="/pokemon" exact component={Home} />
         <Route path="/pokemon/:id" component={Pokemon} />
         <Route path="/about" component={About} />
         <Route path="/users" component={Users} />
