@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bulbasaur",
+    "id": 1,
+    "types": ["poison", "grass"],
+    "image": "/images/1.png",
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": ["Roar", "Seedling"]
+  },
+  {
+    "name": "Ivysaur",
+    "id": 2,
+    "types": ["poison", "grass"],
+    "image": "/images/2.png",
+    "description": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flowers coming bloom.",
+    "height": 1,
+    "weight": 13,
+    "abilities": ["Roar", "Seedling"]
+  }
+]
